@@ -1,4 +1,4 @@
-package com.dewu.algo;
+package org.chasun.maven.plugin;
 
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
@@ -180,10 +180,5 @@ public class ProtoStuffCheckerMojo extends AbstractMojo {
                     tagValue
             );
         }
-    }
-
-    public static void main(String[] args) throws MojoExecutionException, MojoFailureException {
-        ProtoStuffCheckerMojo mojo = new ProtoStuffCheckerMojo();
-        mojo.execute();
     }
 }
